@@ -1,7 +1,7 @@
 # switch-dev-env
-Docker container image for easy libnx development.
+Docker container image for easy Nintendo Switch homebrew development.
 
-`sudo docker run -it --rm -v ${PWD}:/src yuzu-emu/switch-dev-env make`
+`sudo docker run -it --rm -v ${PWD}:/src yuzuemu/switch-dev-env make`
 
 ## What comes pre-configured?
 1. Ubuntu 16.04 build environment with build-essential (make).
@@ -22,7 +22,7 @@ Future support will be added for:
 ### 2) Build with make, loading the src directory as a volume.
 `cd switch-examples`
 
-`sudo docker run -it --rm -v ${PWD}:/src yuzu-emu/switch-dev-env make`
+`sudo docker run -it --rm -v ${PWD}:/src yuzuemu/switch-dev-env make`
 
 ### 3) Obtain output binaries (nro, nso)
-Binaries will be available in the source directory. `Ex: ./switch-examples/graphics/printing/hello-world/hello-world.nro`
+Binaries will be available in the source directory. Ex: `./switch-examples/graphics/printing/hello-world/hello-world.nro`

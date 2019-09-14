@@ -17,7 +17,7 @@ Future support will be added for:
 ## Building your solution (HOWTO)
 
 ### 1) Download sample-examples from switchbrew.
-`git clone -b v20180302 https://github.com/switchbrew/switch-examples.git switch-examples`
+`git clone -b v20190914 https://github.com/switchbrew/switch-examples.git switch-examples`
 
 ### 2) Build with make, loading the src directory as a volume.
 `cd switch-examples`
